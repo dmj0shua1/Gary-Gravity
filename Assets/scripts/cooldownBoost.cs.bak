@@ -1,0 +1,183 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class cooldownBoost : MonoBehaviour
+{
+
+
+    SwipeMovement swipeScript;
+    GameObject character, player, goPanel, btnPause, ui, maincam, boostLane, objBoostTornadoL, objBoostTornadoR,explosion;
+    public Slider boostbarSlider;
+    RdmObjGen rdmobj;
+    bool invokeCollectiblesOnce = false, boostFlashOn;
+    Button btnShield, btnAttack, btnBoost;
+    boostMusic boostMusicScript;
+    Animation anim;
+    Sprite sprBoost, sprShield, sprAttack;
+    Animator boostFlashAnim;
+    // Use this for initialization
+    void Start()
+    {
+        boostLane = GameObject.Find("BoostLane");
+        btnShield = GameObject.Find("btnShield").GetComponent<Button>();
+        btnAttack = GameObject.Find("btnAttack").GetComponent<Button>();
+        btnBoost = GameObject.Find("btnBoost").GetComponent<Button>();
+        btnPause = GameObject.Find("Pause");
+        boostFlashAnim = GameObject.Find("boostFlash").GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        //declarations
+        character = GameObject.FindGameObjectWithTag("character");
+        maincam = GameObject.Find("Main Camera");
+        rdmobj = GameObject.Find("RdmGen").GetComponent<RdmObjGen>();
+        anim = character.GetComponent<Animation>();
+        swipeScript = maincam.gameObject.GetComponent<SwipeMovement>();
+
+        if (boostbarSlider.value == boostbarSlider.maxValue)
+        {
+            if (!invokeCollectiblesOnce)
+            {
+                rdmobj.invokeCollectibles = true;
+                invokeCollectiblesOnce = true;
+            }
+        } else if (boostbarSlider.value <= 0f)
+        {
+          //  stopBoostNow();
+            regenBoost();
+        }
+    }
+
+    void regenBoost()
+    {
+
+        InvokeRepeating("regenBoostInvoked", 4, 4);
+
+    }
+
+    void regenBoostInvoked()
+    {
+
+        if (boostbarSlider.value >= boostbarSlider.maxValue)
+        {
+            rdmobj.stopBoostNow = false;
+            CancelInvoke("regenBoostInvoked");
+        }
+        else
+        {
+            boostbarSlider.value += 0.005f;
+            swipeScript.boostCap += 0.005f;
+            invokeCollectiblesOnce = !invokeCollectiblesOnce;
+        }
+    }
+    public void startBoost()
+    {
+        boostFlashAnim.SetBool("boostFlashOn", true);
+
+        if (character.name == "Ruth2") anim.CrossFade("shopper_girl_spin");
+        else if (character.name == "Char") anim.CrossFade("gary_boost_animation");
+
+
+        swipeScript.targetPosition = boostLane.transform.position;
+        Time.timeScale = 4f;
+        InvokeRepeating("decBoost", 4, 4);
+
+    }
+
+    void Unboost()
+    {
+      //  boostFlashAnim.SetBool("boostFlashOn", false);
+
+        swipeScript.currentLane = "Lane2";
+        if (character.name == "Ruth2") anim.CrossFade("shopper_idle_anim_root");
+        swipeScript.targetPosition = swipeScript.target2.transform.position;
+        Time.timeScale = 1f;
+
+        //destroy all obstacles
+        GameObject[] obs = GameObject.FindGameObjectsWithTag("Obstacles");
+
+        explosion = (GameObject)Resources.Load("Visuals/attackExplosion", typeof(GameObject));
+
+        foreach (GameObject ob in obs)
+        {
+
+            Destroy(ob);
+            Instantiate(explosion, ob.transform.position, ob.transform.rotation);
+        }
+
+        //destroy collectiblecaps
+        GameObject[] obscap = GameObject.FindGameObjectsWithTag("CollectiblesCap");
+        foreach (GameObject obcap in obscap)
+        {
+            Destroy(obcap);
+        }
+
+        //destroy collectibleboost
+        GameObject[] obsboost = GameObject.FindGameObjectsWithTag("CollectiblesBoost");
+        foreach (GameObject obboost in obsboost)
+        {
+            Destroy(obboost);
+        }
+
+        //enable buttons
+        btnPause.GetComponent<Button>().interactable = true;
+        btnBoost.GetComponent<Button>().enabled = true;
+        btnShield.GetComponent<Button>().enabled = true;
+        btnAttack.GetComponent<Button>().enabled = true;
+
+        //change button color
+        sprBoost = Resources.Load<Sprite>("Sprites/UI/btnBoost");
+        sprShield = Resources.Load<Sprite>("Sprites/UI/btnShield");
+        sprAttack = Resources.Load<Sprite>("Sprites/UI/btnAttack");
+
+        btnBoost.GetComponent<Image>().sprite = sprBoost;
+        btnShield.GetComponent<Image>().sprite = sprShield;
+        btnAttack.GetComponent<Image>().sprite = sprAttack;
+
+        if (PlayerPrefs.GetString("chosenChar") == "Shopper_girl")
+        {
+            //turnOnTornados
+            objBoostTornadoL = GameObject.Find("boostTornadoL");
+            objBoostTornadoR = GameObject.Find("boostTornadoR");
+            objBoostTornadoL.GetComponent<SpriteRenderer>().enabled = false;
+            objBoostTornadoR.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        //stop boost music
+        GameObject objboostMusic = GameObject.Find("btnBoost");
+        boostMusicScript = objboostMusic.GetComponent<boostMusic>();
+        boostMusicScript.stopBoostMusic();
+
+    }
+
+    void decBoost()
+    {
+        if (swipeScript.boostCap > 0f)
+        {
+
+            swipeScript = maincam.gameObject.GetComponent<SwipeMovement>();
+            swipeScript.boostCap -= 0.5f;
+            boostbarSlider.value -= 0.5f;
+        }
+        else
+        {
+            //regenBoostNow = true;
+            CancelInvoke("decBoost");
+            Unboost();
+        }
+    }
+
+    void stopBoostNow()
+    {
+        //regenBoostNow = true;
+        if (swipeScript.boostCap <= 0f)
+        {
+            CancelInvoke("decBoost");
+            Unboost();
+        }
+    }
+}

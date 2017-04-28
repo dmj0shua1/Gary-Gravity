@@ -1,0 +1,614 @@
+fileFormatVersion: 2
+guid: 5a4c014aad6c2954eb12c536018850f3
+timeCreated: 1476849028
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: bag_pink_L
+    100004: bag_pink_R
+    100006: bag_violet_L
+    100008: bag_violet_R
+    100010: Bone
+    100012: Bone_002
+    100014: Cube_017
+    100016: Cube_018
+    100018: Cube_021
+    100020: Cube_022
+    100022: finky1_L
+    100024: finky1_R
+    100026: finky2_L
+    100028: finky2_R
+    100030: finky3_L
+    100032: finky3_R
+    100034: foot1_L
+    100036: foot1_L_002
+    100038: hand_L
+    100040: hand_R
+    100042: head
+    100044: index1_L
+    100046: index1_R
+    100048: index2_L
+    100050: index2_R
+    100052: index3_L
+    100054: index3_R
+    100056: knee1_L
+    100058: knee1_R
+    100060: left_shoulder
+    100062: leg1_L
+    100064: leg1_R
+    100066: low_arm_L
+    100068: low_arm_R
+    100070: mid1_L
+    100072: mid1_R
+    100074: mid2_L
+    100076: mid2_R
+    100078: mid_3L
+    100080: mid_3L_002
+    100082: neck
+    100084: Plane_001
+    100086: right_shoulder
+    100088: ring1_L
+    100090: ring1_R
+    100092: ring3_L
+    100094: ring3_R
+    100096: ring_2L
+    100098: ring_2L_002
+    100100: root
+    100102: shoes_001
+    100104: shoes_002
+    100106: shop_body
+    100108: shop_dress
+    100110: shop_hair
+    100112: shop_head
+    100114: //RootNode
+    100116: spine1
+    100118: spine2
+    100120: thumb1_L
+    100122: thumb1_R
+    100124: thumb2_L
+    100126: thumb2_R
+    100128: thumb3_L
+    100130: thumb3_R
+    100132: toe1_L
+    100134: toe1_L_002
+    100136: up_arm_L
+    100138: up_arm_R
+    100140: bags_L
+    100142: bags_L_0
+    100144: bags_R
+    100146: bags_R_0
+    400000: Armature
+    400002: bag_pink_L
+    400004: bag_pink_R
+    400006: bag_violet_L
+    400008: bag_violet_R
+    400010: Bone
+    400012: Bone_002
+    400014: Cube_017
+    400016: Cube_018
+    400018: Cube_021
+    400020: Cube_022
+    400022: finky1_L
+    400024: finky1_R
+    400026: finky2_L
+    400028: finky2_R
+    400030: finky3_L
+    400032: finky3_R
+    400034: foot1_L
+    400036: foot1_L_002
+    400038: hand_L
+    400040: hand_R
+    400042: head
+    400044: index1_L
+    400046: index1_R
+    400048: index2_L
+    400050: index2_R
+    400052: index3_L
+    400054: index3_R
+    400056: knee1_L
+    400058: knee1_R
+    400060: left_shoulder
+    400062: leg1_L
+    400064: leg1_R
+    400066: low_arm_L
+    400068: low_arm_R
+    400070: mid1_L
+    400072: mid1_R
+    400074: mid2_L
+    400076: mid2_R
+    400078: mid_3L
+    400080: mid_3L_002
+    400082: neck
+    400084: Plane_001
+    400086: right_shoulder
+    400088: ring1_L
+    400090: ring1_R
+    400092: ring3_L
+    400094: ring3_R
+    400096: ring_2L
+    400098: ring_2L_002
+    400100: root
+    400102: shoes_001
+    400104: shoes_002
+    400106: shop_body
+    400108: shop_dress
+    400110: shop_hair
+    400112: shop_head
+    400114: //RootNode
+    400116: spine1
+    400118: spine2
+    400120: thumb1_L
+    400122: thumb1_R
+    400124: thumb2_L
+    400126: thumb2_R
+    400128: thumb3_L
+    400130: thumb3_R
+    400132: toe1_L
+    400134: toe1_L_002
+    400136: up_arm_L
+    400138: up_arm_R
+    400140: bags_L
+    400142: bags_L_0
+    400144: bags_R
+    400146: bags_R_0
+    2300000: Cube_017
+    2300002: Cube_018
+    2300004: Cube_021
+    2300006: Cube_022
+    2300008: Plane_001
+    2300010: shoes_001
+    2300012: bag_pink_L
+    2300014: bag_pink_R
+    2300016: bag_violet_L
+    2300018: bag_violet_R
+    2300020: shoes_002
+    2300022: shop_body
+    2300024: shop_dress
+    2300026: shop_hair
+    2300028: shop_head
+    3300000: Cube_017
+    3300002: Cube_018
+    3300004: Cube_021
+    3300006: Cube_022
+    3300008: Plane_001
+    3300010: shoes_001
+    3300012: bag_pink_L
+    3300014: bag_pink_R
+    3300016: bag_violet_L
+    3300018: bag_violet_R
+    3300020: shoes_002
+    3300022: shop_body
+    3300024: shop_dress
+    3300026: shop_hair
+    3300028: shop_head
+    4300000: shop_head
+    4300002: shop_hair
+    4300004: shop_dress
+    4300006: shop_body
+    4300008: shoes_001
+    4300010: shoes_002
+    4300012: bag_violet_R
+    4300014: bag_pink_R
+    4300016: bag_violet_L
+    4300018: bag_pink_L
+    4300020: Cube_021
+    4300022: Cube_022
+    4300024: Cube_017
+    4300026: Cube_018
+    4300028: Plane_001
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: shopper_girl_spin
+    7400006: shopper_idle_anim
+    7400008: shopper_idle_anim_001
+    7400010: ArmatureAction0
+    7400012: shopper_dead_top
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: bag_pink_L
+    13700002: bag_pink_R
+    13700004: bag_violet_L
+    13700006: bag_violet_R
+    13700008: shoes_002
+    13700010: shop_body
+    13700012: shop_dress
+    13700014: shop_hair
+    13700016: shop_head
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: shopper_idle_anim
+      takeName: shopper_idle_anim
+      firstFrame: 0
+      lastFrame: 88
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/leg1_L
+        weight: 1
+      - path: Armature/root/leg1_L/knee1_L
+        weight: 1
+      - path: Armature/root/leg1_L/knee1_L/Bone_002
+        weight: 1
+      - path: Armature/root/leg1_L/knee1_L/Bone_002/foot1_L
+        weight: 1
+      - path: Armature/root/leg1_L/knee1_L/Bone_002/foot1_L/toe1_L
+        weight: 1
+      - path: Armature/root/leg1_R
+        weight: 1
+      - path: Armature/root/leg1_R/knee1_R
+        weight: 1
+      - path: Armature/root/leg1_R/knee1_R/Bone
+        weight: 1
+      - path: Armature/root/leg1_R/knee1_R/Bone/foot1_L_002
+        weight: 1
+      - path: Armature/root/leg1_R/knee1_R/Bone/foot1_L_002/toe1_L_002
+        weight: 1
+      - path: Armature/root/spine1
+        weight: 1
+      - path: Armature/root/spine1/spine2
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/finky1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/finky1_L/finky2_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/finky1_L/finky2_L/finky3_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/index1_L/index2_L/index3_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/mid1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/mid1_L/mid2_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/mid1_L/mid2_L/mid_3L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/ring1_L/ring_2L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/ring1_L/ring_2L/ring3_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/thumb1_L/thumb2_L/thumb3_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/neck
+        weight: 1
+      - path: Armature/root/spine1/spine2/neck/head
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/finky1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/finky1_R/finky2_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/finky1_R/finky2_R/finky3_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/index1_R/index2_R/index3_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/mid1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/mid1_R/mid2_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/mid1_R/mid2_R/mid_3L_002
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/ring1_R/ring_2L_002
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/ring1_R/ring_2L_002/ring3_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/thumb1_R/thumb2_R/thumb3_R
+        weight: 1
+      - path: bag_pink_L
+        weight: 1
+      - path: bag_pink_R
+        weight: 1
+      - path: bag_violet_L
+        weight: 1
+      - path: bag_violet_R
+        weight: 1
+      - path: bags_L
+        weight: 1
+      - path: bags_L/bags_L_0
+        weight: 1
+      - path: bags_R
+        weight: 1
+      - path: bags_R/bags_R_0
+        weight: 1
+      - path: shoes_002
+        weight: 1
+      - path: shop_body
+        weight: 1
+      - path: shop_body/shoes_001
+        weight: 1
+      - path: shop_dress
+        weight: 1
+      - path: shop_hair
+        weight: 1
+      - path: shop_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shopper_dead_top
+      takeName: shopper_dead_top
+      firstFrame: 0
+      lastFrame: 87
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/leg1_L
+        weight: 1
+      - path: Armature/root/leg1_L/knee1_L
+        weight: 1
+      - path: Armature/root/leg1_L/knee1_L/Bone_002
+        weight: 1
+      - path: Armature/root/leg1_L/knee1_L/Bone_002/foot1_L
+        weight: 1
+      - path: Armature/root/leg1_L/knee1_L/Bone_002/foot1_L/toe1_L
+        weight: 1
+      - path: Armature/root/leg1_R
+        weight: 1
+      - path: Armature/root/leg1_R/knee1_R
+        weight: 1
+      - path: Armature/root/leg1_R/knee1_R/Bone
+        weight: 1
+      - path: Armature/root/leg1_R/knee1_R/Bone/foot1_L_002
+        weight: 1
+      - path: Armature/root/leg1_R/knee1_R/Bone/foot1_L_002/toe1_L_002
+        weight: 1
+      - path: Armature/root/spine1
+        weight: 1
+      - path: Armature/root/spine1/spine2
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/finky1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/finky1_L/finky2_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/finky1_L/finky2_L/finky3_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/index1_L/index2_L/index3_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/mid1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/mid1_L/mid2_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/mid1_L/mid2_L/mid_3L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/ring1_L/ring_2L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/ring1_L/ring_2L/ring3_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/left_shoulder/up_arm_L/low_arm_L/hand_L/thumb1_L/thumb2_L/thumb3_L
+        weight: 1
+      - path: Armature/root/spine1/spine2/neck
+        weight: 1
+      - path: Armature/root/spine1/spine2/neck/head
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/finky1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/finky1_R/finky2_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/finky1_R/finky2_R/finky3_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/index1_R/index2_R/index3_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/mid1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/mid1_R/mid2_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/mid1_R/mid2_R/mid_3L_002
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/ring1_R/ring_2L_002
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/ring1_R/ring_2L_002/ring3_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/root/spine1/spine2/right_shoulder/up_arm_R/low_arm_R/hand_R/thumb1_R/thumb2_R/thumb3_R
+        weight: 1
+      - path: bag_pink_L
+        weight: 1
+      - path: bag_pink_R
+        weight: 1
+      - path: bag_violet_L
+        weight: 1
+      - path: bag_violet_R
+        weight: 1
+      - path: bags_L
+        weight: 1
+      - path: bags_L/bags_L_0
+        weight: 1
+      - path: bags_R
+        weight: 1
+      - path: bags_R/bags_R_0
+        weight: 1
+      - path: shoes_002
+        weight: 1
+      - path: shop_body
+        weight: 1
+      - path: shop_body/shoes_001
+        weight: 1
+      - path: shop_dress
+        weight: 1
+      - path: shop_hair
+        weight: 1
+      - path: shop_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Armature
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

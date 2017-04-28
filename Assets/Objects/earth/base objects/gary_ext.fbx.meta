@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 1df29506591465048917cf09d044bd6c
+timeCreated: 1492475273
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ext
+    100002: ext.001
+    100004: //RootNode
+    400000: ext
+    400002: ext.001
+    400004: //RootNode
+    2300000: ext
+    2300002: ext.001
+    3300000: ext
+    3300002: ext.001
+    4300000: ext.001
+    4300002: ext
+    7400000: ext.001|ext.001Action
+    7400002: ext.001|extAction
+    7400004: ext.001|ext|ext|Hemi.001Action.001|ext|Hemi.001Action.001
+    7400006: ext.001|ext|ext|Hemi.001Action.001|ext|Hemi.001Action.003
+    7400008: ext.001|ext|ext|Hemi.001Action.001|ext|Hemi.001Action.004
+    7400010: ext.001|ext|ext|Hemi.001Action|ext|Hemi.001Action.002
+    7400012: ext.001|ext|ext|metarig.001Action|ext|metarig.001Action
+    7400014: ext.001|ext|ext|metarig.001Action|ext|metarig.001Action.001
+    7400016: ext.001|ext|ext|metarig.001Action|ext|metarig.001Action.002
+    7400018: ext.001|Hemi.001|Hemi.001|extAction.001|Hemi.001|extAction.002
+    7400020: ext.001|Hemi.001|Hemi.001|Hemi.001Action.001|Hemi.001|Hemi.001Actio.000
+    7400022: ext.001|Hemi.001|Hemi.001|Hemi.001Action.001|Hemi.001|Hemi.001Actio.001
+    7400024: ext.001|Hemi.001|Hemi.001|Hemi.001Action.001|Hemi.001|Hemi.001Action.00
+    7400026: ext.001|Hemi.001|Hemi.001|Hemi.001Action|Hemi.001|Hemi.001Action
+    7400028: ext.001|Hemi.001|Hemi.001|Hemi.001Action|Hemi.001|Hemi.001Action.001
+    7400030: ext.001|Hemi.001|Hemi.001|Hemi.001Action|Hemi.001|Hemi.001Action.002
+    7400032: ext.001|Hemi.001|Hemi.001|Hemi.001Action|Hemi.001|Hemi.001Action.003
+    7400034: ext.001|Hemi.001|Hemi.001|metarig.001Action|Hemi.001|metarig.001Act.000
+    7400036: ext.001|Hemi.001|Hemi.001|metarig.001Action|Hemi.001|metarig.001Act.001
+    7400038: ext.001|Hemi.001|Hemi.001|metarig.001Action|Hemi.001|metarig.001Action
+    7400040: ext|ext.001Action
+    7400042: ext|extAction
+    7400044: ext|ext|ext|Hemi.001Action.001|ext|Hemi.001Action.001
+    7400046: ext|ext|ext|Hemi.001Action.001|ext|Hemi.001Action.003
+    7400048: ext|ext|ext|Hemi.001Action.001|ext|Hemi.001Action.004
+    7400050: ext|ext|ext|Hemi.001Action|ext|Hemi.001Action.002
+    7400052: ext|ext|ext|metarig.001Action|ext|metarig.001Action
+    7400054: ext|ext|ext|metarig.001Action|ext|metarig.001Action.001
+    7400056: ext|ext|ext|metarig.001Action|ext|metarig.001Action.002
+    7400058: ext|Hemi.001|Hemi.001|extAction.001|Hemi.001|extAction.002
+    7400060: ext|Hemi.001|Hemi.001|Hemi.001Action.001|Hemi.001|Hemi.001Actio.000
+    7400062: ext|Hemi.001|Hemi.001|Hemi.001Action.001|Hemi.001|Hemi.001Actio.001
+    7400064: ext|Hemi.001|Hemi.001|Hemi.001Action.001|Hemi.001|Hemi.001Action.00
+    7400066: ext|Hemi.001|Hemi.001|Hemi.001Action|Hemi.001|Hemi.001Action
+    7400068: ext|Hemi.001|Hemi.001|Hemi.001Action|Hemi.001|Hemi.001Action.001
+    7400070: ext|Hemi.001|Hemi.001|Hemi.001Action|Hemi.001|Hemi.001Action.002
+    7400072: ext|Hemi.001|Hemi.001|Hemi.001Action|Hemi.001|Hemi.001Action.003
+    7400074: ext|Hemi.001|Hemi.001|metarig.001Action|Hemi.001|metarig.001Act.000
+    7400076: ext|Hemi.001|Hemi.001|metarig.001Action|Hemi.001|metarig.001Act.001
+    7400078: ext|Hemi.001|Hemi.001|metarig.001Action|Hemi.001|metarig.001Action
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
